@@ -1,0 +1,6 @@
+
+@Scenario_nominal
+Scenario: search by name                             # src/test/resources/features/search.feature:23
+  Given i am in google page search                   # definitionSteps.SearchStepsDefinition.i_am_in_google_page_search()
+  When i enter cucumber                              # definitionSteps.SearchStepsDefinition.i_enter_cucumber()
+  Then i move to page contains Cucumber: BDD Testing # definitionSteps.SearchStepsDefinition.i_move_to_page_contains_cucumber_bdd_testing()

@@ -1,0 +1,65 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-22T16:49:10.710Z",
+        "line": 23,
+        "name": "search by name",
+        "description": "",
+        "id": "search-feature;search-by-name",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3719173400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "i am in google page search",
+            "match": {
+              "location": "definitionSteps.SearchStepsDefinition.i_am_in_google_page_search()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2286135500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "i enter cucumber",
+            "match": {
+              "location": "definitionSteps.SearchStepsDefinition.i_enter_cucumber()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 750085500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "i move to page contains Cucumber: BDD Testing",
+            "match": {
+              "location": "definitionSteps.SearchStepsDefinition.i_move_to_page_contains_cucumber_bdd_testing()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario_nominal"
+          }
+        ]
+      }
+    ],
+    "name": "search feature",
+    "description": "\tsearch by keyword",
+    "id": "search-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/search.feature",
+    "tags": []
+  }
+]

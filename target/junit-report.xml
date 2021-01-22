@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="7.005">
+    <testcase classname="search feature" name="search by name" time="6.848">
+        <system-out>
+            <![CDATA[Given i am in google page search............................................passed
+When i enter cucumber.......................................................passed
+Then i move to page contains Cucumber: BDD Testing..........................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
